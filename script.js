@@ -1,5 +1,5 @@
-// Calendar date recorded at the top of the app...How else can I make this happen????
-// $("#current-day").text(moment().format('dddd, MMMM Do'));
+// Calendar date recorded at the top of the app
+$("#current-day").text(moment().format('dddd, MMMM Do YYYY'));
 // Functions for picking the time and selecting it if it is past, present, or future
 var presentTime = moment().hours();
 var timeBlockElems = document.querySelectorAll(".time-block");
@@ -46,6 +46,6 @@ function updateTime() {
 	}
 }
 
-setInterval(updateTime, 15000);
-
+// setInterval(updateTime, 15000);
+updateTime();
 document.addEventListener("load", loadToTimeSlot);
