@@ -6,6 +6,9 @@ The application is a daily planner. The application will take in inputs at each 
 
 ## Screenshot
 
+[App-Top](./assets/App-Top.PNG)
+[App-Bottom](./assets/App-Bottom.PNG)
+
 ## Link
 GitHub Repository: https://github.com/1-those-jacks/work-day-scheduler 
 GitHub Page: https://1-those-jacks.github.io/work-day-scheduler/
