@@ -41,7 +41,7 @@ function loadToTimeSlot(){
 	// 	});
 	// 	}
 	var SevenAM = localStorage.getItem("7AM");
-	document.querySelector("#7").textContent = SevenAM;
+	document.querySelector("#7").children[1].value = SevenAM;
 	// localStorage.getItem("8AM");
 	// localStorage.getItem("9AM");
 	// localStorage.getItem("10AM");
